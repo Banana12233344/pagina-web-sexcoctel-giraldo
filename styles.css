@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Color de fondo general en negro */
+    color: #fff; /* Color del texto */
+}
+
+/* Estilos para el encabezado */
+.main-header {
+    background-color: #222; /* Color de fondo del encabezado en tono oscuro */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 150px; /* Tamaño del logo */
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00bfff; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilos para las secciones */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: #111; /* Fondo de las secciones en tono oscuro */
+    border-radius: 10px; /* Borde redondeado */
+    border: 2px solid #00bfff; /* Borde en azul claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%; /* Ancho de las secciones */
+    max-width: 600px; /* Ancho máximo */
+}
+
+section h2 {
+    margin-bottom: 15px; /* Reducción del espacio entre títulos y párrafos */
+    font-size: 24px; /* Tamaño de fuente ligeramente más grande */
+    color: #fff;
+}
+
+section p {
+    color: #ccc; /* Color del texto */
+    line-height: 1.4; /* Espaciado entre líneas */
+    margin-bottom: 10px; /* Reducción del espacio entre párrafos */
+}
+
+/* Estilos para la galería */
+#galeria {
+    background-color: #222; /* Fondo de la galería en tono oscuro */
+    padding: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Estilos para el video */
+#video {
+    background-color: #111; /* Fondo del video en tono oscuro */
+    padding: 20px;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 para el reproductor de video */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para el pie de página */
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222; /* Fondo del pie de página en tono oscuro */
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
