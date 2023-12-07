@@ -1,5 +1,3 @@
-# HTML
- Juan Sebastian Giraldo
 <!DOCTYPE html>
 <html lang="es">
 <head>
